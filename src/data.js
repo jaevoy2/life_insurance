@@ -1,5 +1,6 @@
 export const PHONE_TOLL = '1-844-940-5927'
 export const PHONE_LOCAL = '(902) 940-5927'
+export const EMAIL = 'office@peibf.com'
 export const ADDRESS = '7094 Main Street, North Rustico, PE C0A 1N0'
 
 export const products = [

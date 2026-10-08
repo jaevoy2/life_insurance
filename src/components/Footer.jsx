@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { products, PHONE_TOLL, PHONE_LOCAL, ADDRESS } from '../data.js'
+import { products, PHONE_TOLL, PHONE_LOCAL, EMAIL, ADDRESS } from '../data.js'
 
 export default function Footer() {
   return (
@@ -24,6 +24,7 @@ export default function Footer() {
           <h4>Contact</h4>
           <a href={'tel:' + PHONE_TOLL.replace(/-/g, '')}>{PHONE_TOLL}</a>
           <a href="tel:9029405927">{PHONE_LOCAL}</a>
+          <a href={'mailto:' + EMAIL}>{EMAIL}</a>
           <span>{ADDRESS}</span>
         </div>
       </div>

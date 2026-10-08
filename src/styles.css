@@ -20,7 +20,7 @@ section.container { margin-block: 28px; }
 .nav { display: flex; align-items: center; gap: 24px; font-size: .84rem; font-weight: 500; }
 .nav a, .dd-label { text-decoration: none; cursor: pointer; color: var(--ink); }
 .nav a.active { color: var(--blue); }
-.nav .nav-cta { background: var(--blue); color: #fff; padding: 9px 18px; border-radius: 999px; }
+.nav a.nav-cta, .nav a.nav-cta.active { background: var(--blue); color: #fff; padding: 9px 18px; border-radius: 999px; }
 .dropdown { position: relative; }
 .dd-menu { display: none; position: absolute; top: 100%; left: -10px; min-width: 240px; background: #fff; padding: 8px; border-radius: 14px; box-shadow: 0 14px 34px rgba(11,21,54,.14); }
 .dropdown:hover .dd-menu, .dropdown:focus-within .dd-menu { display: block; }
